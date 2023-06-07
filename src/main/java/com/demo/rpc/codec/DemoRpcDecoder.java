@@ -2,7 +2,7 @@ package com.demo.rpc.codec;
 
 import java.util.List;
 
-import com.demo.rpc.Constants;
+import com.demo.rpc.transport.Constants;
 import com.demo.rpc.compress.Compressor;
 import com.demo.rpc.compress.CompressorFactory;
 import com.demo.rpc.protocol.Header;

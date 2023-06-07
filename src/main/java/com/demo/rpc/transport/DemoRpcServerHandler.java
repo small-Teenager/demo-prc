@@ -3,7 +3,6 @@ package com.demo.rpc.transport;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-import com.demo.rpc.Constants;
 import com.demo.rpc.protocol.Message;
 import com.demo.rpc.protocol.Request;
 

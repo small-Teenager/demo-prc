@@ -7,7 +7,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 
-import com.demo.rpc.Constants;
 import com.demo.rpc.protocol.Header;
 import com.demo.rpc.protocol.Message;
 import com.demo.rpc.protocol.Request;

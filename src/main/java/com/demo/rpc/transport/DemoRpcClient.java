@@ -2,7 +2,6 @@ package com.demo.rpc.transport;
 
 import java.io.Closeable;
 
-import com.demo.rpc.Constants;
 import com.demo.rpc.codec.DemoRpcDecoder;
 import com.demo.rpc.codec.DemoRpcEncoder;
 

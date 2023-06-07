@@ -1,7 +1,7 @@
 package com.demo.rpc.proxy;
 
-import static com.demo.rpc.Constants.MAGIC;
-import static com.demo.rpc.Constants.VERSION_1;
+import static com.demo.rpc.transport.Constants.MAGIC;
+import static com.demo.rpc.transport.Constants.VERSION_1;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.curator.x.discovery.ServiceInstance;
 
-import com.demo.rpc.Constants;
+import com.demo.rpc.transport.Constants;
 import com.demo.rpc.protocol.Header;
 import com.demo.rpc.protocol.Message;
 import com.demo.rpc.protocol.Request;
